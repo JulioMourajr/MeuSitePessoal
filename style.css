@@ -19,11 +19,8 @@ time, mark, audio, video {
 	font-size: 100%;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
+
+
 body {
 	line-height: 1;
   font-family: 'Roboto', sans-serif;
@@ -31,18 +28,7 @@ body {
 ol, ul {
 	list-style: none;
 }
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+
 
 /*CSS DA PAGINA*/
 
@@ -71,6 +57,10 @@ h3{
 #menu{
   background-color: #59CBFF;
 }
+
+a{
+  text-decoration: none;
+}
 ul{
   display: flex;
   flex-wrap: wrap;
@@ -83,7 +73,6 @@ li{
 }
 
 section{
-  border: 2px solid blue;
   background-color: #2D6580;
   color: white;
   margin: 2rem;
@@ -93,6 +82,34 @@ section{
 
 section p {
   margin: 1rem;
+}
+
+/*Página de Contato!*/
+
+#formulario{
+  display: flex;
+  justify-content: center;
+}
+
+#fname{
+  padding: 0.5rem 2.2rem;
+}
+
+#email{
+  padding: 0.5rem 2.2rem;
+}
+
+#botao{
+    margin-top: 20px;
+    display: block;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    background: #59CBFF;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    margin: 0 auto;
 }
 
 footer{

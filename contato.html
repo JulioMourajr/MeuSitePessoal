@@ -9,7 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
       rel="stylesheet"
     />
-    <title>Meu Site</title>
+    <title>Contato</title>
   </head>
   <body>
     <header>
@@ -30,23 +30,20 @@
         <a href="./contato.html"><li>CONTATO</li></a>
       </ul>
     </nav>
-    <section>
-      <h2>Resumo</h2>
-      <p>
-        Formado em Eletrônica pelo IFAL e em nutrição pela UNIT, decido largar a
-        nutrição e voltar a estudar tecnologia. Em transição de carreira que
-        está estudando para ser um Front End Developer.
-      </p>
-    </section>
-    <section>
-      <h2>Acadêmico</h2>
-      <p>(2009 - 2012) - Técnico em Eletrônica no IFAL.</p>
-      <p>(2015 - 2019) - Bacharel em Nutrição na UNIT.</p>
-    </section>
-    <section>
-      <h2>Profissional</h2>
-      <p>(2012 - Atual) - Técnico em Sistemas Audiovisuais na TV GAZETA</p>
-      <p>(2023 - Atual) - Desenvolvedor Front End no Comeia.</p>
+    <section id="formulario">
+      <form>
+        <label for="fname">Nome</label><br><br>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="email">Email</label><br><br>
+        <input type="email" id="email" name="email" placeholder="nome@email.com"><br><br>
+        
+        <label for="fname">Mensagem<br></label><br>
+        <textarea placeholder="Deixe Aqui sua mensagem." name="Mensagem" rows="10" cols="30"></textarea><br><br>
+        <input id="botao" type="submit" value="Enviar">
+
+      </form> 
+     
+      
     </section>
 
     <footer>Desenvolvido por Julio Moura - Todos direitos reservados</footer>
