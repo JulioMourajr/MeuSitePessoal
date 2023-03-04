@@ -78,6 +78,10 @@ section{
   margin: 2rem;
   padding: 2rem;
   border-radius: 1rem;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 section p {
@@ -117,5 +121,31 @@ footer{
   color: white;
   padding: 2rem;
   text-align: center;
+}
+
+.imgPortifolio img{
+  width: 250px ;
+  height: 250px;
+  margin-top: 30px ;
+  margin-left: 40px;
+}
+
+.imgPortifolio p{
+  margin-left: 120px;
+}
+
+.imgPortifolio{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  height: 800px;
+
+  
+}
+
+.section-grid{
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-template-rows: 400px 400px;
 }
 
