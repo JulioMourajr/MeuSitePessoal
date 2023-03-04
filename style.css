@@ -1,0 +1,104 @@
+/*Reset CSS*/
+
+html, body, div, span, applet, object, iframe,
+ p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+  font-family: 'Roboto', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*CSS DA PAGINA*/
+
+header{
+  text-align: center;
+  background-color: #065980;
+}
+
+h3{
+  margin-bottom: 0;
+  padding-bottom: 1rem;
+}
+
+#cabecalho{
+  color: white;
+  margin-top: 0;
+}
+
+#fotoPerfil{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-top: 2.5rem;
+}
+
+#menu{
+  background-color: #59CBFF;
+}
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  justify-content: center;
+}
+
+li{
+  margin: 1rem;
+}
+
+section{
+  border: 2px solid blue;
+  background-color: #2D6580;
+  color: white;
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+section p {
+  margin: 1rem;
+}
+
+footer{
+  background-color: #59CBFF ;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
