@@ -103,6 +103,10 @@ section p {
   padding: 0.5rem 2.2rem;
 }
 
+#celular{
+  padding: 0.5rem 2.2rem;
+}
+
 #botao{
     margin-top: 20px;
     display: block;
@@ -147,6 +151,10 @@ footer{
   display: grid;
   grid-template-columns: 300px 300px;
   grid-template-rows: 400px 400px;
+}
+
+.invalido {
+  border: 2px solid red;
 }
 
 /*Responsivo da HOME*/
